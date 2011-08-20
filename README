@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3696
+
+A simple plugin to help adding browser prefixes to CSS3 properties. Requires cURL.
+
+Homepage: http://designtomarkup.com/vim/work-with-external-css-tools#prefixer.vim
+
+Git repository: https://github.com/kien/prefixer.vim
+
+====================
+Usage:
+====================
++ Select some CSS in visual mode then type either :Prefixer, :Prefixer1 or :Prefixer2.
+
++ When using :Prefixer or :Prefixer2 in visual mode you have to select entire code blocks, i.e. from starting { to ending }.
+
++ Without selecting anything, in normal mode type :Prefixer, :Prefixer1a or :Prefixer2a to process entire file; or :Prefixer1 to process current line.
